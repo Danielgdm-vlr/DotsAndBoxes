@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rc.lab.temafinal.dotsandboxes.controllers.ClientPage">
+   <children>
+      <Label layoutX="256.0" layoutY="124.0" text="Dots And Boxes" />
+      <Label layoutX="94.0" layoutY="141.0" text="Welcome! Here are the rules:" />
+      <Label layoutX="128.0" layoutY="158.0" text="1.The game starts with an empty 4x4 grid of dots." />
+      <Label layoutX="128.0" layoutY="175.0" text="2. Two players take turns adding a single horizontal or vertical line " />
+      <Label layoutX="108.0" layoutY="192.0" text="between two unjoined adjacent dots." />
+      <Label layoutX="128.0" layoutY="209.0" text="3. A player who completes the fourth side of a 1×1 box earns one point" />
+      <Label layoutX="108.0" layoutY="226.0" text="and takes another turn." />
+      <Label layoutX="128.0" layoutY="243.0" text="4. The game ends when no more lines can be placed." />
+      <Label layoutX="128.0" layoutY="260.0" text="5. The winner is the player with the most points" />
+      <Label layoutX="125.0" layoutY="71.0" text="Please enter your desired username:" />
+      <TextField fx:id="textFieldUsername" onKeyReleased="#keyReleasedProperty" layoutX="323.0" layoutY="67.0" promptText="Username" />
+      <Button fx:id="buttonStartGame" onAction="#startGame" layoutX="446.0" layoutY="346.0" mnemonicParsing="false" text="Start Game" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.shape.Circle?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.rc.lab.temafinal.dotsandboxes.controllers.ServerPage"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <Rectangle arcHeight="12.0" arcWidth="12.0" fill="#c3c3c3" height="600.0" layoutX="100.0" layoutY="86.0" stroke="BLACK" strokeType="INSIDE" width="600.0" />
+        <Circle fill="DODGERBLUE" layoutX="175.0" layoutY="161.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fill="DODGERBLUE" layoutX="175.0" layoutY="311.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fill="DODGERBLUE" layoutX="175.0" layoutY="461.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fill="DODGERBLUE" layoutX="175.0" layoutY="611.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fill="DODGERBLUE" layoutX="325.0" layoutY="161.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fill="DODGERBLUE" layoutX="475.0" layoutY="161.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fill="DODGERBLUE" layoutX="625.0" layoutY="161.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fill="DODGERBLUE" layoutX="325.0" layoutY="311.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fill="DODGERBLUE" layoutX="325.0" layoutY="461.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fill="DODGERBLUE" layoutX="325.0" layoutY="611.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fill="DODGERBLUE" layoutX="475.0" layoutY="311.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fill="DODGERBLUE" layoutX="475.0" layoutY="461.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fill="DODGERBLUE" layoutX="475.0" layoutY="611.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fill="DODGERBLUE" layoutX="625.0" layoutY="311.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fill="DODGERBLUE" layoutX="625.0" layoutY="461.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fill="DODGERBLUE" layoutX="625.0" layoutY="611.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+        <Label layoutX="351.0" layoutY="38.0" text="DOTS AND BOXES" />
+        <Label layoutX="72.0" layoutY="21.0" text="Player1:" />
+        <Label layoutX="72.0" layoutY="47.0" text="Player2:" />
+        <Label fx:id="labelPlayer1" layoutX="122.0" layoutY="21.0" />
+        <Label fx:id="labelPlayer2" layoutX="122.0" layoutY="47.0" />
+    </children>
+</AnchorPane>
